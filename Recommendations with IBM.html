@@ -14398,16 +14398,16 @@ The 3 most similar users to user 46 are: [4201, 23, 3782]
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>[&#39;got zip code data? prep it for analytics. – ibm watson data lab – medium&#39;,
- &#39;gosales transactions for logistic regression model&#39;,
- &#39;experience iot with coursera&#39;,
- &#39;car performance data&#39;,
- &#39;challenges in deep learning&#39;,
- &#39;5 practical use cases of social network analytics: going beyond facebook and twitter&#39;,
- &#39;using deep learning with keras to predict customer churn&#39;,
- &#39;data tidying in data science experience&#39;,
+<pre>[&#39;deploy your python model as a restful api&#39;,
+ &#39;build a python app on the streaming analytics service&#39;,
+ &#39;declarative machine learning&#39;,
+ &#39;spark 2.1 and job monitoring available in dsx&#39;,
+ &#39;this week in data science (february 14, 2017)&#39;,
+ &#39;ml algorithm != learning machine&#39;,
  &#39;markdown for jupyter notebooks cheatsheet&#39;,
- &#39;this week in data science (may 2, 2017)&#39;]</pre>
+ &#39;this week in data science (may 2, 2017)&#39;,
+ &#39;the power of machine learning in spark&#39;,
+ &#39;from spark ml model to online scoring with scala&#39;]</pre>
 </div>
 
 </div>
@@ -14684,6 +14684,14 @@ The top 10 recommendations for user 20 are the following article names:
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><strong>Provide your response here.</strong></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>When the user is new, it'll be best to use either (or mix of) <strong>Knowledge-based filtering</strong> and <strong>Content-based filtering</strong>. In our case, the function assoctiated with returnung <strong>most interacted articles</strong> would be a good choice. Moreover, when considering a content-based approach, we can implement sort of NLP, to provide even better predictions.</p>
 
 </div>
 </div>
@@ -15513,7 +15521,8 @@ http://pandas.pydata.org/pandas-docs/stable/indexing.html#ix-indexer-is-deprecat
 <div class="text_cell_render border-box-sizing rendered_html">
 <ul>
 <li>From the figure above, we can observe that when it comes to the traning phase, the accuracy increases as the latent features increase. However, this is not the case when it comes to the testing phase. In the testing phase, whenever we have a big number of latent features, we have the lowest accuracy. </li>
-<li>In order to have the best system, we can use a mix of all the methods. Moreover, to ensure that we take the best educated guess, we can use testing techniques in order to have the BEST recommendation engines. As a rule of thumb, we can use collaborative filtering when the user has a sort of 'history' in the system. For new starters, content-based filtering and knowledge-based filtering will do the best, to overcome the cold start problem. Of course, when the latter two approaches are combined with NLP, this will ensure even a better results! </li>
+<li>To evaluate the performance of the current engine, we can use <code>A/B Testing</code> techniques in order to enhance the engine. </li>
+<li>Also, we can arrange a group of people who are exposed to the current system, and other users who don't have it (i.e., control group).</li>
 </ul>
 
 </div>
